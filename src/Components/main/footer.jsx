@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="w-[85%] lg:w-[80%] mx-auto text-white max-w-[1440px]">
         <div className="grid grid-cols-2 justify-between gap-[20px] sm:grid-cols-3 lg:grid-cols-4">
 
-          <div className="w-[100%] col-span-2 sm:col-span-3 lg:col-auto sm:flex sm:justify-center lg:block">
+          <div className="hidden w-[100%] col-span-2 sm:col-span-3 lg:col-auto sm:flex sm:justify-center lg:block">
             <img src={CoolisticLogoFooter} alt="Coolistic Logo" className="w-[180px]"/>
           </div>
           <ul>
