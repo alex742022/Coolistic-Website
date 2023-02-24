@@ -1,15 +1,15 @@
 import React from "react";
-import Installation from "../../../assets/Installation.jpg";
-import Installation2 from "../../../assets/Installation2.jpg";
+import Repair from "../../../assets/Repair.jpg";
+import Repair2 from "../../../assets/Repair2.jpg";
 
 export default function RepairService() {
   return (
     <>
       <div className="relative  max-w-[1444px] mx-auto">
         <img
-          className="w-[100%] h-[400px] object-cover object-right lg:h-[450px] lg:object-top"
-          src={Installation}
-          alt="Installation Aircon"
+          className="w-[100%] h-[400px] object-cover object-right lg:h-[450px] lg:object-[50%,30%]"
+          src={Repair}
+          alt="Aircon Repair"
         />
         <div className="absolute w-[100%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20">
           <h1 className="text-white font-bold text-[35px] text-center w-[90%] mx-auto tracking-wide lg:text-[50px]">
@@ -39,8 +39,8 @@ export default function RepairService() {
           <div className="md:w-[50%]">
             <img
               className="rounded-md"
-              src={Installation2}
-              alt="Installation Aircon"
+              src={Repair2}
+              alt="Aircon Repair"
             />
           </div>
         </div>
