@@ -7,7 +7,7 @@ export default function CleaningServices() {
     <>
       <div className="relative  max-w-[1444px] mx-auto">
         <img
-          className="w-[100%] h-[400px] object-cover object-right lg:h-[450px] lg:object-top"
+          className="w-[100%] h-[400px] object-cover object-right lg:h-[450px] lg:object-[50%,40%]"
           src={Cleaning}
           alt="Cleaning Aircon"
         />
