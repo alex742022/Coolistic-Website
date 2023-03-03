@@ -19,6 +19,8 @@ import SharpBrands from "../../assets/sharp.png";
 import ToshibaBrands from "../../assets/Toshiba.png";
 import TosotBrands from "../../assets/tosot.png";
 import YorkBrands from "../../assets/York.png";
+import LeftArrow from "../../assets/chevron-left.png";
+import RightArrow from "../../assets/chevron-right.png";
 
 export default function BrandsAircon() {
   const brandList = [
@@ -146,12 +148,14 @@ export default function BrandsAircon() {
     const { onClick } = props;
     return (
       <span
-        className="bg-slate-300 w-5 h-5 rounded-full
+        className="w-[40px]
                          flex justify-center items-center
                          absolute right-[-5%] bottom-[50%] translate-y-[50%] z-10
                          cursor-pointer"
         onClick={onClick}
-      ></span>
+      >
+        <img src={RightArrow} alt="right-arrow" />
+      </span>
     );
   }
 
@@ -159,24 +163,25 @@ export default function BrandsAircon() {
   function PrevArrow(props) {
     const { onClick } = props;
     return (
-      <span
-        className="bg-slate-300 w-5 h-5 p-5 rounded-full
+      <div
+        className="w-[40px]
                          flex justify-center items-center 
                          absolute left-[-5%] bottom-[50%] translate-y-[50%] z-10
                          sm:right-[100px]
                          cursor-pointer"
         onClick={onClick}
-      ></span>
+      >
+        <img src={LeftArrow} alt="left-arrow" />
+      </div>
     );
   }
 
   return (
-    <>
+    <div className="pt-[50px]">
       <h1 className="text-center btc2 text-[28px] uppercase font-semibold">
         Brands we carry
       </h1>
       <div className="w-[90%] mx-auto lg:w-[80%] max-w-[1444px]">
-        <div>
           <Slider {...settings}>
             {brandList.map((brands) => {
               return (
@@ -193,8 +198,7 @@ export default function BrandsAircon() {
               );
             })}
           </Slider>
-        </div>
       </div>
-    </>
+    </div>
   );
 }
