@@ -24,25 +24,28 @@ export default function Permits() {
               needs.
             </p>
           </div>
+
           <img
             src={Permit1}
             alt="Permit1"
-            className="shadow-lg transition ease-in-out delay-75 duration-200 hover:scale-105 w-[100%] md:w-[90%]"
+            className="shadow-lg transition ease-in-out delay-75 duration-200 hover:scale-105 w-[100%] md:w-[90%] mx-auto"
           />
+
           <img
             src={Permit}
             alt="Permit2"
-            className="shadow-lg transition ease-in-out delay-75 duration-200 hover:scale-105 w-[100%] md:w-[90%]"
+            className="shadow-lg transition ease-in-out delay-75 duration-200 hover:scale-105 w-[100%] md:w-[90%] mx-auto"
           />
+
           <img
             src={Permit2}
             alt="Permit3"
-            className="shadow-lg transition ease-in-out delay-75 duration-200 hover:scale-105 w-[100%] md:w-[90%]"
+            className="shadow-lg transition ease-in-out delay-75 duration-200 hover:scale-105 w-[100%] md:w-[90%] mx-auto"
           />
           <img
             src={Permit3}
             alt="Permit4"
-            className="shadow-lg transition ease-in-out delay-75 duration-200 hover:scale-105 w-[100%] md:w-[90%]"
+            className="shadow-lg transition ease-in-out delay-75 duration-200 hover:scale-105 w-[100%] md:w-[90%] mx-auto"
           />
         </div>
         {/* </div> */}
