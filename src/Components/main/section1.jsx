@@ -65,8 +65,16 @@ export default function Section1() {
             <a href="#About">
               <li>About Us</li>
             </a>
+            <div className="group/item cursor-pointer relative bc2">
+              <li>Our Services</li>
+              <div className="absolute w-[0px] group-hover/item:w-[105px] transition-w duration-150 ease-out h-[2px] bc1"></div>
+              <div className="absolute top-[40px] btc2 bg-white flex-col w-[220px] lg:w-[340px] rounded-md shadow-lg flex overflow-hidden invisible duration-500  ease-in-out  group-hover/item:visible">
+                <a href="#" className="hover:bg-[#40bad2] hover:text-white px-[20px] py-[10px]">AC Installation</a>
+                <a href="#" className="hover:bg-[#40bad2] hover:text-white px-[20px] py-[10px]">AC Repair and Replacement Services</a>
+                <a href="#" className="hover:bg-[#40bad2] hover:text-white px-[20px] py-[10px]">AC Cleaning</a>
+              </div>
+            </div>
 
-            <li>Our Services</li>
             <li>Pricing</li>
             <li>Contacts</li>
           </ul>
